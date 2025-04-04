@@ -1,0 +1,13 @@
+{
+
+    "firstname" : "test",
+    "lastname" : "tests",
+    "email" : "test@test.com",
+    "password" : "test1234",
+    "telephone" : "0123456789",
+    "aemail" : "youremail@email.com",
+    "apassword" : "mypassword",
+    "apple" : "iphone 16"
+
+
+}
