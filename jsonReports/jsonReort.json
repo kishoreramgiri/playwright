@@ -50,27 +50,27 @@
         "testDir": "/Users/ramgirikishore/Playwright-Automation",
         "testIgnore": [],
         "testMatch": [
-          "pomtest/addTiCartmyFixture.test.ts"
+          "apitest/APITestAuth.test.ts"
         ],
         "timeout": 30000
       }
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "updateSourceMethod": "patch",
+    "updateSourceMethod": "3way",
     "version": "1.51.0",
     "workers": 5,
     "webServer": null
   },
   "suites": [
     {
-      "title": "pomtest/addTiCartmyFixture.test.ts",
-      "file": "pomtest/addTiCartmyFixture.test.ts",
+      "title": "apitest/APITestAuth.test.ts",
+      "file": "apitest/APITestAuth.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Register test",
+          "title": "Auth with Put method",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,35 +82,28 @@
               "projectName": "chrome",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 3,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 6527,
+                  "duration": 289,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "{ token: \u001b[32m'da531dbe64909df'\u001b[39m }\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-04-02T10:08:12.602Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "/Users/ramgirikishore/Playwright-Automation/test-results/pomtest-addTiCartmyFixture-Register-test-chrome/test-finished-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "/Users/ramgirikishore/Playwright-Automation/test-results/pomtest-addTiCartmyFixture-Register-test-chrome/video.webm"
-                    }
-                  ]
+                  "startTime": "2025-04-16T08:56:27.053Z",
+                  "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "030e12a3cc4a838a1aae-0c46f86929877992b042",
-          "file": "pomtest/addTiCartmyFixture.test.ts",
-          "line": 7,
+          "id": "1cfc3d55b4e26ddc9f48-605fe02860abceda43e9",
+          "file": "apitest/APITestAuth.test.ts",
+          "line": 41,
           "column": 5
         }
       ]
@@ -118,8 +111,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-04-02T10:08:12.226Z",
-    "duration": 7418.909,
+    "startTime": "2025-04-16T08:56:26.370Z",
+    "duration": 2163.835999999894,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

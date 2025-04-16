@@ -7,7 +7,9 @@
     "telephone" : "0123456789",
     "aemail" : "youremail@email.com",
     "apassword" : "mypassword",
-    "apple" : "iphone 16"
+    "apple" : "iphone 16",
+    "apiusername" : "admin",
+    "apipassword" : "password123"
 
 
 }

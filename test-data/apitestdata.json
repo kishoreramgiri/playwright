@@ -1,0 +1,38 @@
+
+{
+    "postdata":{
+        "firstname" : "Post",
+        "lastname" : "Method",
+        "totalprice" : 111,
+        "depositpaid" : true,
+        "bookingdates" : {
+        "checkin" : "2018-01-01",
+        "checkout" : "2019-01-01"
+    },
+    "additionalneeds" : "Breakfast"
+    },
+    "putdata":{
+        "firstname" : "Put",
+        "lastname" : "Method",
+        "totalprice" : 10,
+        "depositpaid" : true,
+        "bookingdates" : {
+            "checkin" : "2018-01-01",
+            "checkout" : "2019-01-01"
+        },
+        "additionalneeds" : "Ice cream"
+    },
+    "patchdata":{
+        "firstname" : "Patch",
+        "lastname" : "Method",
+        "additionalneeds": "Patch Method Successfull!"
+    },
+    "patchoutput":{
+        "firstname": "Patch",
+        "lastname": "Method",
+        "totalprice": 111,
+        "depositpaid": true,
+        "bookingdates": { "checkin": "2018-01-01", "checkout": "2019-01-01" },
+        "additionalneeds": "Patch Method Successfull!"
+    }
+}

@@ -14,6 +14,9 @@ const myFixture = myTest.extend<loginCredntials>({  //we can give class name, cl
     password: "test1234",
     age: 30,
     gender: "male"
-})    
+})  
+
+
 
 export const test = myFixture;
+// export const test = apimyFixture;
