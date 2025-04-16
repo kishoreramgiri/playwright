@@ -1,2 +1,2 @@
 # playwrightAutomation
-Playwright Automation
+Playwright Automation - UI & API
